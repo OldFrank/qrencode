@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F79DDA12974987008B29CD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DD912974987008B29CD /* config.h */; };
+		77F79DDD129749CB008B29CD /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DDC129749CB008B29CD /* qrencode.h */; };
+		77F79DDF129749D3008B29CD /* qrencode_inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DDE129749D3008B29CD /* qrencode_inner.h */; };
+		77F79DE1129749DC008B29CD /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DE0129749DC008B29CD /* qrinput.h */; };
+		77F79DE3129749E4008B29CD /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DE2129749E4008B29CD /* bitstream.h */; };
+		77F79DE5129749ED008B29CD /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DE4129749ED008B29CD /* qrspec.h */; };
+		77F79DE7129749F6008B29CD /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DE6129749F6008B29CD /* rscode.h */; };
+		77F79DE9129749FF008B29CD /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DE8129749FF008B29CD /* split.h */; };
+		77F79DEB12974A06008B29CD /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DEA12974A06008B29CD /* mask.h */; };
+		77F79DED12974A1B008B29CD /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F79DEC12974A1B008B29CD /* common.h */; };
+		77F79DEF12974A2F008B29CD /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DEE12974A2F008B29CD /* qrencode.c */; };
+		77F79DF112974A38008B29CD /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DF012974A38008B29CD /* qrinput.c */; };
+		77F79DF312974A40008B29CD /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DF212974A40008B29CD /* bitstream.c */; };
+		77F79DF512974A48008B29CD /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DF412974A48008B29CD /* qrspec.c */; };
+		77F79DF712974A52008B29CD /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DF612974A52008B29CD /* rscode.c */; };
+		77F79DF912974A59008B29CD /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DF812974A59008B29CD /* split.c */; };
+		77F79DFB12974A62008B29CD /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F79DFA12974A62008B29CD /* mask.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77F79DC41297484D008B29CD /* libqrencode-3.1.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libqrencode-3.1.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F79DD912974987008B29CD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		77F79DDC129749CB008B29CD /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrencode.h; path = "qrencode-3.1.1/qrencode.h"; sourceTree = "<group>"; };
+		77F79DDE129749D3008B29CD /* qrencode_inner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrencode_inner.h; path = "qrencode-3.1.1/qrencode_inner.h"; sourceTree = "<group>"; };
+		77F79DE0129749DC008B29CD /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrinput.h; path = "qrencode-3.1.1/qrinput.h"; sourceTree = "<group>"; };
+		77F79DE2129749E4008B29CD /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitstream.h; path = "qrencode-3.1.1/bitstream.h"; sourceTree = "<group>"; };
+		77F79DE4129749ED008B29CD /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrspec.h; path = "qrencode-3.1.1/qrspec.h"; sourceTree = "<group>"; };
+		77F79DE6129749F6008B29CD /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rscode.h; path = "qrencode-3.1.1/rscode.h"; sourceTree = "<group>"; };
+		77F79DE8129749FF008B29CD /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = split.h; path = "qrencode-3.1.1/split.h"; sourceTree = "<group>"; };
+		77F79DEA12974A06008B29CD /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mask.h; path = "qrencode-3.1.1/mask.h"; sourceTree = "<group>"; };
+		77F79DEC12974A1B008B29CD /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = "qrencode-3.1.1/tests/common.h"; sourceTree = "<group>"; };
+		77F79DEE12974A2F008B29CD /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrencode.c; path = "qrencode-3.1.1/qrencode.c"; sourceTree = "<group>"; };
+		77F79DF012974A38008B29CD /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrinput.c; path = "qrencode-3.1.1/qrinput.c"; sourceTree = "<group>"; };
+		77F79DF212974A40008B29CD /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitstream.c; path = "qrencode-3.1.1/bitstream.c"; sourceTree = "<group>"; };
+		77F79DF412974A48008B29CD /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrspec.c; path = "qrencode-3.1.1/qrspec.c"; sourceTree = "<group>"; };
+		77F79DF612974A52008B29CD /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rscode.c; path = "qrencode-3.1.1/rscode.c"; sourceTree = "<group>"; };
+		77F79DF812974A59008B29CD /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = split.c; path = "qrencode-3.1.1/split.c"; sourceTree = "<group>"; };
+		77F79DFA12974A62008B29CD /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mask.c; path = "qrencode-3.1.1/mask.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F79DC11297484D008B29CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F79DB61297484D008B29CD = {
+			isa = PBXGroup;
+			children = (
+				77F79DD912974987008B29CD /* config.h */,
+				77F79DDB1297498D008B29CD /* qrencode-3.1.1 */,
+				77F79DC51297484D008B29CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F79DC51297484D008B29CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F79DC41297484D008B29CD /* libqrencode-3.1.1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F79DDB1297498D008B29CD /* qrencode-3.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				77F79DDC129749CB008B29CD /* qrencode.h */,
+				77F79DDE129749D3008B29CD /* qrencode_inner.h */,
+				77F79DE0129749DC008B29CD /* qrinput.h */,
+				77F79DE2129749E4008B29CD /* bitstream.h */,
+				77F79DE4129749ED008B29CD /* qrspec.h */,
+				77F79DE6129749F6008B29CD /* rscode.h */,
+				77F79DE8129749FF008B29CD /* split.h */,
+				77F79DEA12974A06008B29CD /* mask.h */,
+				77F79DEC12974A1B008B29CD /* common.h */,
+				77F79DEE12974A2F008B29CD /* qrencode.c */,
+				77F79DF012974A38008B29CD /* qrinput.c */,
+				77F79DF212974A40008B29CD /* bitstream.c */,
+				77F79DF412974A48008B29CD /* qrspec.c */,
+				77F79DF612974A52008B29CD /* rscode.c */,
+				77F79DF812974A59008B29CD /* split.c */,
+				77F79DFA12974A62008B29CD /* mask.c */,
+			);
+			name = "qrencode-3.1.1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77F79DC21297484D008B29CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F79DDA12974987008B29CD /* config.h in Headers */,
+				77F79DDD129749CB008B29CD /* qrencode.h in Headers */,
+				77F79DDF129749D3008B29CD /* qrencode_inner.h in Headers */,
+				77F79DE1129749DC008B29CD /* qrinput.h in Headers */,
+				77F79DE3129749E4008B29CD /* bitstream.h in Headers */,
+				77F79DE5129749ED008B29CD /* qrspec.h in Headers */,
+				77F79DE7129749F6008B29CD /* rscode.h in Headers */,
+				77F79DE9129749FF008B29CD /* split.h in Headers */,
+				77F79DEB12974A06008B29CD /* mask.h in Headers */,
+				77F79DED12974A1B008B29CD /* common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		77F79DC31297484D008B29CD /* qrencode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F79DCB1297484D008B29CD /* Build configuration list for PBXNativeTarget "qrencode" */;
+			buildPhases = (
+				77F79DC01297484D008B29CD /* Sources */,
+				77F79DC11297484D008B29CD /* Frameworks */,
+				77F79DC21297484D008B29CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qrencode;
+			productName = qrencode;
+			productReference = 77F79DC41297484D008B29CD /* libqrencode-3.1.1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F79DB81297484D008B29CD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 77F79DBB1297484D008B29CD /* Build configuration list for PBXProject "qrencode-3.1.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77F79DB61297484D008B29CD;
+			productRefGroup = 77F79DC51297484D008B29CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F79DC31297484D008B29CD /* qrencode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F79DC01297484D008B29CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F79DEF12974A2F008B29CD /* qrencode.c in Sources */,
+				77F79DF112974A38008B29CD /* qrinput.c in Sources */,
+				77F79DF312974A40008B29CD /* bitstream.c in Sources */,
+				77F79DF512974A48008B29CD /* qrspec.c in Sources */,
+				77F79DF712974A52008B29CD /* rscode.c in Sources */,
+				77F79DF912974A59008B29CD /* split.c in Sources */,
+				77F79DFB12974A62008B29CD /* mask.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77D9F79B1297554C0075CBDD /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = AdHoc;
+		};
+		77D9F79C1297554C0075CBDD /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/qrencode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)-3.1.1";
+			};
+			name = AdHoc;
+		};
+		77D9F79D129755530075CBDD /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = AppStore;
+		};
+		77D9F79E129755530075CBDD /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/qrencode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)-3.1.1";
+			};
+			name = AppStore;
+		};
+		77F79DC91297484D008B29CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77F79DCA1297484D008B29CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		77F79DCC1297484D008B29CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/qrencode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)-3.1.1";
+			};
+			name = Debug;
+		};
+		77F79DCD1297484D008B29CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/qrencode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)-3.1.1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F79DBB1297484D008B29CD /* Build configuration list for PBXProject "qrencode-3.1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F79DC91297484D008B29CD /* Debug */,
+				77F79DCA1297484D008B29CD /* Release */,
+				77D9F79B1297554C0075CBDD /* AdHoc */,
+				77D9F79D129755530075CBDD /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F79DCB1297484D008B29CD /* Build configuration list for PBXNativeTarget "qrencode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F79DCC1297484D008B29CD /* Debug */,
+				77F79DCD1297484D008B29CD /* Release */,
+				77D9F79C1297554C0075CBDD /* AdHoc */,
+				77D9F79E129755530075CBDD /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F79DB81297484D008B29CD /* Project object */;
+}
